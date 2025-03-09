@@ -5,7 +5,7 @@ import Banner from "./components/Header/Banner";
 import InvestmentForm from "./components/UserForm/InvestmentForm";
 
 function App() {
-  const [res, setRes] = useState([]);
+  const [res, setRes] = useState([]);//most tricky part of the problem
 
   const calculateHandler = (userInput) => {
     const yearlyData = [];
