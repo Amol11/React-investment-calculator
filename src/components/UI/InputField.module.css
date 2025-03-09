@@ -1,0 +1,3 @@
+.user-input input:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
